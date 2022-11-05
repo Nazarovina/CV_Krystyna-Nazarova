@@ -1,0 +1,590 @@
+@font-face {
+    font-family: 'Montserrat700';
+    src: url(/fonds/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat600';
+    src: url(/fonds/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat400';
+    src: url(/fonds/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+    font-family: 'Montserrat400';
+    text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol,
+li {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+/*----------------------------------------------*/
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/*----------------------- Left section ---------------------------------*/
+
+.left-section {
+    width: 40%;
+    margin-top: 15px;
+    border-right: 2px solid #eac428;
+}
+
+.left-section .my-photo-box {
+    width: 80%;
+    margin: auto;
+}
+
+.left-section .my-photo-box .my-photo-image {
+    width: 100%;
+    position: relative;
+    margin-top: -30px;
+    border-bottom: 5px solid #eac428;
+    border-left: 5px solid #eac428;
+}
+
+.left-section .yellow-border {
+    width: 30px;
+    height: 150px;
+    background-color: #eac428;
+    position: relative;
+    margin: -45px 0 0 90px;
+}
+
+.left-section h1 {
+    font-family: 'Montserrat700';
+    width: 60px;
+    font-size: 35px;
+    position: relative;
+    margin: -100px 0 0 90px;
+}
+
+.left-section h2 {
+    font-family: 'Montserrat700';
+    width: 60px;
+    font-size: 35px;
+    color: #eac428;
+    position: relative;
+    margin: -43px 0 0 170px;
+}
+
+/*--------- Contacts ----------*/
+
+.left-section .contacts {
+    box-sizing: border-box;
+    width: 60%;
+    background-color: #eac428;
+    margin: 20px 20px 25px 85px ;
+    padding: 20px;
+}
+
+.left-section .contacts h3 {
+    font-family: 'Montserrat600';
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+}
+
+.left-section .contacts a {
+    color: black;
+    width: 80%;
+}
+
+/*--------- Skills ----------*/
+.left-section .section-skills {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.left-section .section-skills h3 {
+    font-family: 'Montserrat600';
+}
+
+.left-section .section-skills .section-skills-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.left-section .section-skills .section-skills-list .scale {
+    width: 30%;
+    height: 15px;
+    background-color: #eac428;
+}
+
+/*--------- Languages ----------*/
+
+.left-section .section-languages {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.left-section .section-languages h3 {
+    font-family: 'Montserrat600';
+}
+
+.left-section .section-languages .section-languages-box {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.left-section .section-languages .section-languages-box .section-languages-item {
+    margin-top: 20px;
+    width: 80px;
+    background: no-repeat center/100% 100% url(/image/phombus.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 11px;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.left-section .section-languages .section-languages-box .languages-botom {
+    position: relative;
+    width: 80px;
+    margin-top: 70px;
+}
+
+/*----------------------- Right section ---------------------------------*/
+
+.right-section {
+    width: 60%;
+    padding-right: 10px;
+}
+
+.right-section .profile-section p {
+    width: 90%;
+    margin: 30px 20px 0 18px;
+    text-align: justify;
+
+}
+
+.title {
+    width: 30%;
+    margin-top: 7%;
+    font-family: 'Montserrat600';
+    font-size: 25px;
+    border-bottom: 2px solid #eac428;
+    padding-left: 5%;
+}
+
+.right-section .education-section .education-section-box {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;   
+}
+
+.right-section .education-section .education-section-box .education-section-list {
+    width: 40%;
+    margin: 15px 20px 0 18px;
+}
+
+.right-section .education-section .education-section-box .education-section-list h5 {
+    font-family: 'Montserrat700';
+}
+
+.right-section .education-section .education-section-box .education-section-list p {
+    color: #eac428;
+    font-family: 'Montserrat600';
+}
+
+.yellow-right-border {
+    position: absolute;
+    background-color: #eac428;
+    width: 50px;
+    height: 170px;
+    margin: -180px 719px;
+}
+
+.right-section .work-section .title{
+    width: 40%;   
+}
+
+.right-section .work-section h5 {
+    font-family: 'Montserrat600';
+    margin: 25px 0 0 17px;
+    font-size: 16px;
+    
+}
+
+.right-section .work-section .work-section-list {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px 20px 0 0;
+}
+
+.right-section .work-section p {
+    width: 90%;
+    margin: 6px 20px 0 20px;
+    text-align: justify;
+}
+
+.right-section .certificate-section {
+    width: 100%;
+}
+
+.right-section .certificate-section .certificate-section-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.right-section .certificate-section .certificate-section-list a {
+    width: 20%;
+}
+
+.right-section .certificate-section .certificate-section-list img {
+    width: 100%;
+}
+
+/*----------------------- Footer ---------------------------------*/
+
+.footer {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    background-color: #eac428;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer .social_media {
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social_media p {
+    width: 200px;
+    font-size: 90%;
+    display: none;
+}
+
+.footer .social_media a {
+    width: 6%;
+    margin-right: 20px;
+}
+
+.footer .social_media img {
+    width: 60%;
+}
+
+/*----------------------- Media ---------------------------------*/
+
+@media(min-width:1280px) {
+    .wrapper {
+        width: 1280px;
+        box-shadow: 2px 5px 33px -14px rgba(170, 171, 183, 1);
+    }
+    .footer {
+        width: 1280px;
+    }
+}
+@media(max-width:1280px) {
+    .wrapper {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media(max-width:1030px) {
+    .left-section .my-photo-box {
+        width: 70%;
+    }
+    .left-section .contacts {
+        width: 80%;
+        margin: 40px auto;
+    }
+    .left-section .contacts h3 {
+    margin: 5px 0 5px 0;
+    font-size: 16px;
+    }
+    .left-section .contacts a {
+    width: 50%;
+    font-size: 12px;
+    }
+    .left-section .yellow-border {
+        width: 20px;
+        height: 130px;
+        margin: -35px 0 0 80px;
+    }
+    
+    .left-section h1 {
+        font-size: 30px;
+        margin: -90px 0 0 80px;
+    }
+    
+    .left-section h2 {
+        font-size: 25px;
+        margin: -30px 0 0 140px;
+    }
+    .yellow-right-border {
+        display: none;    
+    }
+}
+
+@media(max-width:940px) {
+    .left-section .section-skills {
+        width: 70%;
+        margin: auto;
+    }
+    .left-section .section-skills .section-skills-list {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .left-section .section-skills .section-skills-list p {
+        width: 50%;
+    }
+    
+    .left-section .section-skills .section-skills-list .scale {
+        width: 50%;
+    }
+}
+
+@media(max-width:780px) {
+    .left-section .my-photo-box {
+        width: 60%;
+    }
+    .left-section .section-languages .section-languages-box {
+        display: inline-block;
+        width: 90%;
+        margin: auto;
+    }
+    .left-section .section-languages .section-languages-box .section-languages-item {
+        width: 80px;
+        margin: 20px auto;
+    }
+    
+    .left-section .section-languages .section-languages-box .languages-botom {
+        position: static;
+    }
+    p {
+        font-size: small;
+    }
+    .left-section .yellow-border {
+        width: 15px;
+        height: 80px;
+        margin: -25px 0 0 70px;
+    }
+    
+    .left-section h1 {
+        font-size: 20px;
+        margin: -60px 0 0 70px;
+    }
+    
+    .left-section h2 {
+        font-size: 20px;
+        margin: 0 0 0 100px;
+    }
+    .footer .social_media a {
+        width: 10%;
+    }
+    .left-section .contacts {
+        width: 70%;
+    }
+}
+
+@media(max-width:600px) {
+    .title {
+        font-size: 16px;
+    }
+    p {
+        font-size: 9px;
+    }
+    .left-section .contacts h3 {
+        font-size: 10px;
+    }
+    .left-section .contacts a {
+        font-size: 8px;
+    }
+    .left-section .section-skills h3 {
+        font-size: 12px;
+    }
+    .left-section .section-languages h3 {
+        font-size: 12px;
+    }
+    .right-section .certificate-section .certificate-section-list {
+        flex-wrap: wrap;
+    }
+    .right-section .certificate-section .certificate-section-list a {
+        width: 40%;
+        margin: 10px 10px;
+    } 
+    .right-section .certificate-section .certificate-section-list img {
+        width: 50%;
+    }
+    .right-section .education-section .education-section-box .education-section-list {
+        width: 40%;
+        margin: 0px 10px 0 14px;
+    }
+    .right-section .education-section .education-section-box .education-section-list h5 {
+        font-size: 10px;
+    }
+    .left-section .yellow-border {
+        width: 10px;
+        height: 50px;
+        margin: -25px 0 0 60px;
+    }
+    .left-section h1 {
+        font-size: 17px;
+        margin: -18px 0 0 60px;
+    }
+    .left-section h2 {
+        font-size: 17px;
+        margin: 0 0 0 90px;
+    }
+    .left-section .section-languages .section-languages-box {
+        width: 90%;
+    }
+    .left-section .section-languages .section-languages-box .section-languages-item {
+        width: 50px;
+        height: 50px;
+        font-size: 7px;
+    }
+    .left-section .section-languages .section-languages-box .languages-botom {
+        position: static;
+    }
+}
+
+@media(max-width:500px) {
+    .wrapper {
+        display: contents;
+    }
+    .left-section {
+        width: 90%;
+        margin: auto;
+        border: none;
+    }
+    .right-section {
+        width: 90%;
+        margin: auto;
+    }
+    .left-section .yellow-border {
+        width: 5%;
+        height: 110px;
+        margin: -45px 0 0 27%;
+    }
+    .left-section h1 {
+        font-size: 30px;
+        margin: -15.5% 0 0 27%;
+    }
+    .left-section h2 {
+        font-size: 30px;
+        margin: -4px 0 0 27%;
+    }
+    .left-section .contacts {
+        width: 60%;
+        padding: 20px;
+    }
+    .left-section .contacts h3 {
+        font-size: 100%;
+    }
+    .left-section .contacts a {
+        font-size: 65%;
+    }
+    .left-section .section-languages .section-languages-box {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .left-section .section-languages .section-languages-box .section-languages-item {
+        width: 60px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        height: 60px;
+        margin: 10px 3px 0 3px;
+    }
+    .right-section .education-section .education-section-box {
+        box-sizing: border-box;
+        display: contents; 
+    }
+    .right-section .education-section .education-section-box .education-section-list {
+        width: 80%;
+        margin: 15px auto;
+    }
+    .right-section .work-section .title{
+        width: 70%;   
+    }
+    .right-section .work-section h5 {
+        margin: 25px 0 0 17px;
+        font-size: 11px;
+    }
+    .right-section .work-section .work-section-list {
+        width: 90%;
+        margin-top: 5px;
+    }
+    .right-section .work-section p {
+        width: 90%;
+        margin-top: 5px;
+        text-align: justify;
+    }
+    .right-section .certificate-section {
+        width: 100%;
+    }
+    .right-section .certificate-section .certificate-section-list a {
+        width: 20%;
+    }
+    .right-section .certificate-section .certificate-section-list img {
+        width: 100%;
+    }
+    .footer .social_media a {
+        width: 10%;
+        margin-right: 20px;
+    }
+    .footer .social_media img {
+        width: 100%;
+    }
+}
