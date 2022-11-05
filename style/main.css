@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Montserrat700';
-    src: url(/fonds/Montserrat/static/Montserrat-Bold.ttf);
+    src: url(../fonds/Montserrat/static/Montserrat-Bold.ttf);
 }
 @font-face {
     font-family: 'Montserrat600';
-    src: url(/fonds/Montserrat/static/Montserrat-SemiBold.ttf);
+    src: url(../fonds/Montserrat/static/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
     font-family: 'Montserrat400';
-    src: url(/fonds/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(../fonds/Montserrat/static/Montserrat-Regular.ttf);
 }
 
 html {
@@ -169,7 +169,7 @@ body {
 .left-section .section-languages .section-languages-box .section-languages-item {
     margin-top: 20px;
     width: 80px;
-    background: no-repeat center/100% 100% url(/image/phombus.png);
+    background: no-repeat center/100% 100% url(../image/phombus.png);
     display: flex;
     align-items: center;
     justify-content: center;
